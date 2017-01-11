@@ -11,6 +11,7 @@
   "devDependencies": {
     "cheerio": "^0.22.0",
     "express": "^4.14.0",
+    "mongodb": "^2.2.19",
     "request": "^2.79.0"
   }
 }

@@ -4,14 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "hotnode ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "body-parser": "^1.15.2",
     "cheerio": "^0.22.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.0",
+    "ejs": "^2.5.5",
     "express": "^4.14.0",
     "mongodb": "^2.2.19",
-    "request": "^2.79.0"
+    "mongoose": "^4.7.6",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0",
+    "serve-favicon": "^2.3.2"
   }
 }
